@@ -1,0 +1,12 @@
+@media screen and (max-width: 992px) {
+    .nav-bar {
+        .nav-right ul {
+            li {
+                display: none;
+            }
+            .hamburger {
+                display: inline-block;
+            }
+        }
+    }
+}
