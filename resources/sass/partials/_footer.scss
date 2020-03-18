@@ -55,3 +55,18 @@ footer {
         line-height: 1.4;
     }
 }
+
+@media screen and (max-width: 768px) {
+    footer {
+        text-align: center;
+        .footer-top {
+            display: block;
+            .right {
+                .site-map {
+                    align-items: center;
+                    margin: 20px 0 0 0;
+                }
+            }
+        }
+    }
+}

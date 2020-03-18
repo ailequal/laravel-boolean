@@ -105,6 +105,16 @@ a {
   height: 40px;
 }
 
+@media screen and (max-width: 992px) {
+  .nav-bar .nav-right ul li {
+    display: none;
+  }
+
+  .nav-bar .nav-right ul .hamburger {
+    display: inline-block;
+  }
+}
+
 .ex-students {
   padding: 50px 0;
   background-color: #e8ebf1;
@@ -173,6 +183,17 @@ a {
   border-radius: 0px;
 }
 
+@media screen and (max-width: 768px) {
+  .ex-students .cards {
+    display: block;
+  }
+
+  .ex-students .cards .card {
+    width: calc(100% - 80px);
+    margin: 20px auto 0 auto;
+  }
+}
+
 footer {
   padding: 30px 0;
   background-color: #1b3c59;
@@ -233,16 +254,6 @@ footer .footer-middle .social a img {
 footer .footer-bottom {
   text-align: center;
   line-height: 1.4;
-}
-
-@media screen and (max-width: 992px) {
-  .nav-bar .nav-right ul li {
-    display: none;
-  }
-
-  .nav-bar .nav-right ul .hamburger {
-    display: inline-block;
-  }
 }
 
 @media screen and (max-width: 768px) {
