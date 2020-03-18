@@ -128,22 +128,48 @@ a {
 .ex-students .cards .card {
   width: calc(100% / 2 - 80px);
   border-radius: 10px;
+  margin: 20px 0 0 0;
   padding: 20px;
   background-color: #ffffff;
 }
 
-.ex-students .cards .card img {
+.ex-students .cards .card .card-top {
+  display: flex;
+  margin: 0 0 14px 0;
+}
+
+.ex-students .cards .card .card-top img {
   height: 100px;
   border-radius: 8px;
 }
 
-.ex-students .cards .card h3 {
+.ex-students .cards .card .card-top .info {
+  margin: 0 0 0 18px;
+}
+
+.ex-students .cards .card .card-top .info h3 {
   font-size: 18px;
   color: #1b3c59;
 }
 
+.ex-students .cards .card .card-top .info span {
+  display: inline-block;
+  margin: 12px 0 0 0;
+  font-size: 14px;
+}
+
+.ex-students .cards .card p {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.ex-students .cards .card a {
+  display: inline-block;
+  margin: 10px 0 0 0;
+}
+
 .ex-students .cards .card a img {
-  height: 20px;
+  height: 16px;
   border-radius: 0px;
 }
 

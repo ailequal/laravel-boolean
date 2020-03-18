@@ -16,23 +16,41 @@
         .card {
             width: calc(100% / 2 - 80px);
             border-radius: 10px;
+            margin: 20px 0 0 0;
             padding: 20px;
             background-color: $white;
-            img {
-                height: 100px;
-                border-radius: 8px;
-            }
-            h3 {
-                font-size: 18px;
-                color: $blue;
-            }
-            span {
+            .card-top {
+                display: flex;
+                margin: 0 0 14px 0;
+                img {
+                    height: 100px;
+                    border-radius: 8px;
+                }
+                .info {
+                    margin: 0 0 0 18px;
+                    h3 {
+                        font-size: 18px;
+                        color: $blue;
+                    }
+                    span {
+                        display: inline-block;
+                        margin: 12px 0 0 0;
+                        font-size: 14px;
+                    }
+                }
             }
             p {
+                font-size: 14px;
+                line-height: 1.4;
             }
-            a img {
-                height: 20px;
-                border-radius: 0px;
+            a {
+                display: inline-block;
+                margin: 10px 0 0 0;
+                // text-align: right;
+                img {
+                    height: 16px;
+                    border-radius: 0px;
+                }
             }
         }
     }
