@@ -3,7 +3,7 @@
 		<nav class="nav-left">
 			<ul>
 				<li class="logo">
-					<a href="#"><img src="" alt="boolean"></a>
+					<a href="#"><img src="{{asset('img/logo-color.png')}}" alt="boolean"></a>
 				</li>
 			</ul>
 		</nav>

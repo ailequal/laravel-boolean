@@ -41,6 +41,13 @@ footer {
         text-align: center;
         .social {
             margin: 10px 0;
+            a img {
+                height: 24px;
+                margin: 0 6px;
+                // fill: $white;
+                // color: $white;
+                // background-color: $white;
+            }
         }
     }
     .footer-bottom {

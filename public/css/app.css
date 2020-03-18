@@ -129,6 +129,11 @@ footer .footer-middle .social {
   margin: 10px 0;
 }
 
+footer .footer-middle .social a img {
+  height: 24px;
+  margin: 0 6px;
+}
+
 footer .footer-bottom {
   text-align: center;
   line-height: 1.4;

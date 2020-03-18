@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="footer-top">
 			<div class="left">
-				<img src="" alt="boolean">
+				<img src="{{asset('img/logo-white.png')}}" alt="boolean">
 				<div class="info">
 					<span>Sede Operativa</span>
 					<span>Via Carducci 12 - 20123 Milano</span>
@@ -21,10 +21,10 @@
 		</div>
 		<div class="footer-middle">
 			<div class="social">
-				<a href="#"><img src="" alt="instagram"></a>
-				<a href="#"><img src="" alt="facebook"></a>
-				<a href="#"><img src="" alt="linkedin"></a>
-				<a href="#"><img src="" alt="youtube"></a>
+				<a href="#"><img src="{{asset('img/instagram.png')}}" alt="instagram"></a>
+				<a href="#"><img src="{{asset('img/facebook.svg')}}" alt="facebook"></a>
+				<a href="#"><img src="{{asset('img/linkedin.svg')}}" alt="linkedin"></a>
+				<a href="#"><img src="{{asset('img/youtube.png')}}" alt="youtube"></a>
 			</div>
 		</div>
 		<div class="footer-bottom">
