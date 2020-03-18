@@ -115,12 +115,12 @@ a {
   }
 }
 
-.ex-students {
+.students {
   padding: 50px 0;
   background-color: #e8ebf1;
 }
 
-.ex-students h2 {
+.students h2 {
   margin: 0 0 30px 0;
   text-align: center;
   font-size: 42px;
@@ -128,14 +128,14 @@ a {
   color: #1b3c59;
 }
 
-.ex-students .cards {
+.students .cards {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
 }
 
-.ex-students .cards .card {
+.students .cards .card {
   width: calc(100% / 2 - 80px);
   border-radius: 10px;
   margin: 20px 0 0 0;
@@ -143,42 +143,42 @@ a {
   background-color: #ffffff;
 }
 
-.ex-students .cards .card .card-top {
+.students .cards .card .card-top {
   display: flex;
   margin: 0 0 14px 0;
 }
 
-.ex-students .cards .card .card-top img {
+.students .cards .card .card-top img {
   height: 100px;
   border-radius: 8px;
 }
 
-.ex-students .cards .card .card-top .info {
+.students .cards .card .card-top .info {
   margin: 0 0 0 18px;
 }
 
-.ex-students .cards .card .card-top .info h3 {
+.students .cards .card .card-top .info h3 {
   font-size: 18px;
   color: #1b3c59;
 }
 
-.ex-students .cards .card .card-top .info span {
+.students .cards .card .card-top .info span {
   display: inline-block;
   margin: 12px 0 0 0;
   font-size: 14px;
 }
 
-.ex-students .cards .card p {
+.students .cards .card p {
   font-size: 14px;
   line-height: 1.4;
 }
 
-.ex-students .cards .card a {
+.students .cards .card a {
   display: inline-block;
   margin: 10px 0 0 0;
 }
 
-.ex-students .cards .card a img {
+.students .cards .card a img {
   height: 16px;
   border-radius: 0px;
 }

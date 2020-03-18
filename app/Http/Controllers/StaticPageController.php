@@ -22,7 +22,4 @@ class StaticPageController extends Controller
 			return view('webpages.iscriviti');
 		}
 
-		public function test() {
-			return view('webpages.test');
-		}
 }

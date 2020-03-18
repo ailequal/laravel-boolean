@@ -1,7 +1,7 @@
 @extends('layouts.layout')
 
 @section('main')
-<div class="ex-students container-fluid">
+<div class="students container-fluid">
 	<div class="container">
 		<h2>I nostri ex studenti su LinkedIn</h2>
 		<div class="cards">

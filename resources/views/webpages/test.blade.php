@@ -4,8 +4,9 @@
 <div class="container">
 	<h2>test</h2>
 
+	@dd($students)
 	{{-- @dd(asset('css/style.css')) --}}
-	@dd(Request::route()->getName() == 'static_page.test') ? 'active' : '')
+	{{-- @dd(Request::route()->getName() == 'carriere.test') ? 'active' : '') --}}
 	{{-- {{Request::route()->getName() == 'static_page.test') ? 'active' : ''}} --}}
 
 	{{-- @dd(Request::route()) --}}
