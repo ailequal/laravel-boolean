@@ -105,6 +105,48 @@ a {
   height: 40px;
 }
 
+.ex-students {
+  padding: 50px 0;
+  background-color: #e8ebf1;
+}
+
+.ex-students h2 {
+  margin: 0 0 30px 0;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 300;
+  color: #1b3c59;
+}
+
+.ex-students .cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.ex-students .cards .card {
+  width: calc(100% / 2 - 80px);
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.ex-students .cards .card img {
+  height: 100px;
+  border-radius: 8px;
+}
+
+.ex-students .cards .card h3 {
+  font-size: 18px;
+  color: #1b3c59;
+}
+
+.ex-students .cards .card a img {
+  height: 20px;
+  border-radius: 0px;
+}
+
 footer {
   padding: 30px 0;
   background-color: #1b3c59;
