@@ -21,10 +21,10 @@
 		</div>
 		<div class="footer-middle">
 			<div class="social">
-				<a href="#"><img src="{{asset('img/instagram.png')}}" alt="instagram"></a>
-				<a href="#"><img src="{{asset('img/facebook.svg')}}" alt="facebook"></a>
-				<a href="#"><img src="{{asset('img/linkedin.svg')}}" alt="linkedin"></a>
-				<a href="#"><img src="{{asset('img/youtube.png')}}" alt="youtube"></a>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+				<a href="#"><i class="fab fa-facebook-f"></i></a>
+				<a href="#"><i class="fab fa-linkedin-in"></i></a>
+				<a href="#"><i class="fab fa-youtube"></i></a>
 			</div>
 		</div>
 		<div class="footer-bottom">

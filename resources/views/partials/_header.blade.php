@@ -24,7 +24,7 @@
 				<li class="apply {{(Request::route()->getName() == 'static_page.iscriviti') ? 'active' : ''}}"><a
 						href="{{route('static_page.iscriviti')}}">CANDIDATI
 						ORA</a></li>
-				<li class="hamburger"><a href="#"><img src="{{asset('img/hamburger.png')}}" alt="hamburger"></a></li>
+				<li class="hamburger"><a href="#"><i class="fas fa-bars"></i></a></li>
 			</ul>
 		</nav>
 	</div>

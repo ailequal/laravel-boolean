@@ -16,7 +16,7 @@
 					</div>
 				</div>
 				<p class="description">{{$student['description']}}</p>
-				<a class="linkedin" href="#"><img src="{{asset('img/linkedin.svg')}}" alt="linkedin"></a>
+				<a class="linkedin" href="#"><i class="fab fa-linkedin"></i></i></a>
 			</div>
 			@endforeach
 		</div>

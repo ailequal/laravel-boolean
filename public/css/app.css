@@ -101,8 +101,8 @@ a {
   padding: 10px 20px;
 }
 
-.nav-bar .nav-right ul .hamburger a img {
-  height: 40px;
+.nav-bar .nav-right ul .hamburger a i {
+  font-size: 30px;
 }
 
 @media screen and (max-width: 992px) {
@@ -139,6 +139,7 @@ a {
   position: relative;
   width: calc(100% / 2 - 80px);
   min-height: 240px;
+  align-self: stretch;
   border-radius: 10px;
   margin: 20px 0 0 0;
   padding: 20px;
@@ -183,9 +184,9 @@ a {
   margin: 10px 0 0 0;
 }
 
-.students .cards .card .linkedin img {
-  height: 16px;
-  border-radius: 0px;
+.students .cards .card .linkedin i {
+  font-size: 20px;
+  color: #0070aa;
 }
 
 @media screen and (max-width: 768px) {
@@ -217,9 +218,8 @@ footer .footer-top {
 }
 
 footer .footer-top .left img {
-  width: 200px;
-  height: 60px;
-  margin: 0 0 4px 0;
+  width: 160px;
+  margin: 0 0 10px 0;
 }
 
 footer .footer-top .left .info span {
@@ -251,8 +251,8 @@ footer .footer-middle .social {
   margin: 10px 0;
 }
 
-footer .footer-middle .social a img {
-  height: 24px;
+footer .footer-middle .social a i {
+  font-size: 24px;
   margin: 0 6px;
 }
 

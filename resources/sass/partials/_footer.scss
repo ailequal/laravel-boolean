@@ -12,9 +12,8 @@ footer {
         border-bottom: 2px solid $white;
         .left {
             img {
-                width: 200px;
-                height: 60px;
-                margin: 0 0 4px 0;
+                width: 160px;
+                margin: 0 0 10px 0;
             }
             .info span {
                 display: block;
@@ -41,12 +40,9 @@ footer {
         text-align: center;
         .social {
             margin: 10px 0;
-            a img {
-                height: 24px;
+            a i {
+                font-size: 24px;
                 margin: 0 6px;
-                // fill: $white;
-                // color: $white;
-                // background-color: $white;
             }
         }
     }

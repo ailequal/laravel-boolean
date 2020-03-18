@@ -7,7 +7,6 @@
         .logo {
             a img {
                 width: 160px;
-                // height: 60px;
             }
         }
     }
@@ -48,11 +47,8 @@
                 border-bottom: 0px solid $green;
                 padding: 10px 20px;
             }
-            a img {
-                height: 40px;
-                // color: $blue;
-                // fill: $blue;
-                // background-color: $blue;
+            a i {
+                font-size: 30px;
             }
         }
     }
