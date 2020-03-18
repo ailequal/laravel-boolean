@@ -29,3 +29,12 @@ a {
     width: 100%;
     margin: auto;
 }
+
+.active {
+    border-bottom: 2px solid $green;
+    padding: 10px 20px 8px 20px;
+    &:hover {
+        border-bottom: 2px solid $green;
+        padding: 10px 20px 8px 20px;
+    }
+}

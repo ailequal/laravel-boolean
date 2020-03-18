@@ -6,15 +6,15 @@
     .nav-left ul {
         .logo {
             a img {
-                width: 200px;
-                height: 60px;
+                width: 160px;
+                // height: 60px;
             }
         }
     }
     .nav-right ul {
         display: flex;
         li {
-            margin: 0 0 0 20px;
+            margin: 0 0 0 14px;
             padding: 10px 20px;
             &:hover {
                 border-bottom: 2px solid $green;
@@ -22,6 +22,14 @@
             }
             a {
                 color: $blue;
+            }
+        }
+        .active {
+            border-bottom: 2px solid $green;
+            padding: 10px 20px 8px 20px;
+            &:hover {
+                border-bottom: 2px solid $green;
+                padding: 10px 20px 8px 20px;
             }
         }
         .apply {
@@ -36,6 +44,16 @@
         }
         .hamburger {
             display: none;
+            &:hover {
+                border-bottom: 0px solid $green;
+                padding: 10px 20px;
+            }
+            a img {
+                height: 40px;
+                // color: $blue;
+                // fill: $blue;
+                // background-color: $blue;
+            }
         }
     }
 }
