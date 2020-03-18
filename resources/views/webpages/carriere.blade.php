@@ -11,7 +11,8 @@
 					<img src="{{$student['img']}}" alt="alessandro biagini">
 					<div class="info">
 						<h3>{{$student['name']}} {{$student['surname']}} ({{$student['age']}} anni)</h3>
-						<span>Assunto da {{$student['working at']}} come {{$student['job role']}}</span>
+						<span>Assunt{{($student['gender'] === 'male' ? 'o' : 'a')}} da {{$student['working at']}} come
+							{{$student['job role']}}</span>
 					</div>
 				</div>
 				<p class="description">{{$student['description']}}</p>
