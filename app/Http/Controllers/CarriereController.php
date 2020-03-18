@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class CarriereController extends Controller
 {
 
-		public $data;
+		private $data;
 
 		public function __construct() {
 			$this->data = [
@@ -103,7 +103,7 @@ class CarriereController extends Controller
 		}
 
 		public function index() {
-			return view('webpages.carriere');
+			return view('webpages.carriere', $this->data);
 		}
 
 		public function test() {

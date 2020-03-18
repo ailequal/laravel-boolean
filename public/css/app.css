@@ -136,7 +136,9 @@ a {
 }
 
 .students .cards .card {
+  position: relative;
   width: calc(100% / 2 - 80px);
+  min-height: 240px;
   border-radius: 10px;
   margin: 20px 0 0 0;
   padding: 20px;
@@ -173,22 +175,25 @@ a {
   line-height: 1.4;
 }
 
-.students .cards .card a {
+.students .cards .card .linkedin {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
   display: inline-block;
   margin: 10px 0 0 0;
 }
 
-.students .cards .card a img {
+.students .cards .card .linkedin img {
   height: 16px;
   border-radius: 0px;
 }
 
 @media screen and (max-width: 768px) {
-  .ex-students .cards {
+  .students .cards {
     display: block;
   }
 
-  .ex-students .cards .card {
+  .students .cards .card {
     width: calc(100% - 80px);
     margin: 20px auto 0 auto;
   }
