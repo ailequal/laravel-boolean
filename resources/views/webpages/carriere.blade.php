@@ -5,12 +5,14 @@
 	<div class="container">
 		<h2>I nostri ex studenti su LinkedIn</h2>
 		<div class="cards">
-			@foreach ($students as $student)
+			@foreach ($students as $key => $student)
 			<div class="card">
 				<div class="card-top">
 					<img src="{{$student['img']}}" alt="alessandro biagini">
 					<div class="info">
-						<h3>{{$student['name']}} {{$student['surname']}} ({{$student['age']}} anni)</h3>
+						<a href="{{route('carriere.show', $key)}}">
+							<h3>{{$student['name']}} {{$student['surname']}} ({{$student['age']}} anni)</h3>
+						</a>
 						<span>Assunt{{($student['gender'] === 'male' ? 'o' : 'a')}} da {{$student['working at']}} come
 							{{$student['job role']}}</span>
 					</div>
