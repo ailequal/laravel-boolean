@@ -1,60 +1,63 @@
-.students {
-    padding: 50px 0;
-    background-color: $grey;
-    h2 {
-        margin: 0 0 30px 0;
-        text-align: center;
-        font-size: 42px;
-        font-weight: 300;
-        color: $blue;
-    }
-    .cards {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap;
-        .card {
-            position: relative;
-            width: calc(100% / 2 - 80px);
-            min-height: 240px;
-            align-self: stretch;
-            border-radius: 10px;
-            margin: 20px 0 0 0;
-            padding: 20px;
-            background-color: $white;
-            .card-top {
-                display: flex;
-                margin: 0 0 14px 0;
-                img {
-                    height: 100px;
-                    border-radius: 8px;
-                }
-                .info {
-                    margin: 0 0 0 18px;
-                    h3 {
-                        font-size: 18px;
-                        color: $blue;
+main {
+    margin: 80px 0 0 0;
+    .students {
+        padding: 50px 0;
+        background-color: $grey;
+        h2 {
+            margin: 0 0 30px 0;
+            text-align: center;
+            font-size: 42px;
+            font-weight: 300;
+            color: $blue;
+        }
+        .cards {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            .card {
+                position: relative;
+                width: calc(100% / 2 - 80px);
+                min-height: 240px;
+                align-self: stretch;
+                border-radius: 10px;
+                margin: 20px 0 0 0;
+                padding: 20px;
+                background-color: $white;
+                .card-top {
+                    display: flex;
+                    margin: 0 0 14px 0;
+                    img {
+                        height: 100px;
+                        border-radius: 8px;
                     }
-                    span {
-                        display: inline-block;
-                        margin: 12px 0 0 0;
-                        font-size: 14px;
+                    .info {
+                        margin: 0 0 0 18px;
+                        h3 {
+                            font-size: 18px;
+                            color: $blue;
+                        }
+                        span {
+                            display: inline-block;
+                            margin: 12px 0 0 0;
+                            font-size: 14px;
+                        }
                     }
                 }
-            }
-            p {
-                font-size: 14px;
-                line-height: 1.4;
-            }
-            .linkedin {
-                position: absolute;
-                bottom: 10px;
-                right: 10px;
-                display: inline-block;
-                margin: 10px 0 0 0;
-                i {
-                    font-size: 20px;
-                    color: rgb(0, 112, 170);
+                p {
+                    font-size: 14px;
+                    line-height: 1.4;
+                }
+                .linkedin {
+                    position: absolute;
+                    bottom: 10px;
+                    right: 10px;
+                    display: inline-block;
+                    margin: 10px 0 0 0;
+                    i {
+                        font-size: 20px;
+                        color: rgb(0, 112, 170);
+                    }
                 }
             }
         }

@@ -4,8 +4,10 @@
 <div class="container">
 	<h2>test</h2>
 
+
 	@php
-	redirect()->route('static_page.index');
+	dd(asset(''));
+	// redirect()->route('static_page.index');
 	@endphp
 	{{-- @dd(route('static_page.index')) --}}
 	{{-- @dd($students) --}}
