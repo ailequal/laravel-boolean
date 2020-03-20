@@ -4,7 +4,11 @@
 <div class="container">
 	<h2>test</h2>
 
-	@dd($students)
+	@php
+	redirect()->route('static_page.index');
+	@endphp
+	{{-- @dd(route('static_page.index')) --}}
+	{{-- @dd($students) --}}
 	{{-- @dd(asset('css/style.css')) --}}
 	{{-- @dd(Request::route()->getName() == 'carriere.test') ? 'active' : '') --}}
 	{{-- {{Request::route()->getName() == 'static_page.test') ? 'active' : ''}} --}}

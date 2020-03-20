@@ -17,12 +17,24 @@ class CarriereController extends Controller
 			return view('webpages.carriere', $this->data);
 		}
 
-		public function show($id) {
-			if (!array_key_exists($id, $this->data['students'])) {
-				abort('404');
+		public function show($slug) {
+			// store the array of students inside a variable
+			$students = $this->data['students'];
+			// search every student for a matching slug
+			$find = false;
+			foreach ($students as $key => $student) {
+				if ($slug === $student['slug']) {
+					$studentKey = $key;
+					$find = true;
+				}
+			}
+
+			// check if the studentKey has been filled
+			if ($find) {
+				$student = $students[$studentKey];
+				return view('webpages.studente', compact('student'));
 			} else {
-				$student = $this->data['students'][$id];
-			return view('webpages.studente', compact('student'));
+				abort('404');
 			}
 		}
 

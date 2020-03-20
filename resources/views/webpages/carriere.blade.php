@@ -10,7 +10,7 @@
 				<div class="card-top">
 					<img src="{{$student['img']}}" alt="alessandro biagini">
 					<div class="info">
-						<a href="{{route('carriere.show', $key)}}">
+						<a href="{{route('carriere.show', $student['slug'])}}">
 							<h3>{{$student['name']}} {{$student['surname']}} ({{$student['age']}} anni)</h3>
 						</a>
 						<span>Assunt{{($student['gender'] === 'male' ? 'o' : 'a')}} da {{$student['working at']}} come
