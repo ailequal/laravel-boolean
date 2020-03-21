@@ -35,5 +35,21 @@
 @endsection
 
 @section('script')
+<script id="template" type="text/x-handlebars-template">
+	<div class="card">
+		<div class="card-top">
+			<img src="@{{img}}" alt="alessandro biagini">
+			<div class="info">
+				<a href="{{route('carriere.show', '')}}/@{{slug}}">
+					<h3>@{{name}} @{{surname}} (@{{age}} anni)</h3>
+				</a>
+				<span>@{{hired}} da @{{working_at}} come
+					@{{job_role}}</span>
+			</div>
+		</div>
+		<p class="description">@{{description}}</p>
+		<a class="linkedin" href="#"><i class="fab fa-linkedin"></i></i></a>
+	</div>
+</script>
 <script src="{{asset('js/app.js')}}"></script>
 @endsection
