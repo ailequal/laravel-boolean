@@ -29896,7 +29896,31 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 var $ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
 
 $(document).ready(function () {
-  console.log('hello world');
+  // when user change the genre filter do this
+  $('#filter').on('change', function () {
+    // store the selection as genre
+    var genderSelect = $(this).val(); // check that the selection is correct
+
+    if (genderSelect !== 'all' && genderSelect !== 'male' && genderSelect !== 'female') {
+      genderSelect = 'Wrong selection';
+    }
+
+    console.log(genderSelect); // start the ajax call to the server with post method
+
+    $.ajax({
+      url: window.location.protocol + "//" + window.location.host + "/api/carriere/studenti/genere/",
+      method: "POST",
+      data: {
+        'gender': genderSelect
+      },
+      success: function success(data, state) {
+        console.log(data);
+      },
+      error: function error(request, state, _error) {
+        console.log(_error);
+      }
+    });
+  });
 });
 
 /***/ }),
