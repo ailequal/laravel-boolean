@@ -140,6 +140,10 @@ main .students h2 {
   color: #1b3c59;
 }
 
+main .students .filter {
+  text-align: center;
+}
+
 main .students .cards {
   display: flex;
   justify-content: space-around;

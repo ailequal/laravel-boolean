@@ -91,11 +91,9 @@ return [
 			'slug' => 'simone-quarticelli'
 		]
 	],
-	'gender' => [
-		[
-			'male',
-			'female'
-		]
+	'genders' => [
+		'male',
+		'female'
 	]
 ];
 

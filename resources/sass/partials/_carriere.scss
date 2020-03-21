@@ -10,6 +10,9 @@ main {
             font-weight: 300;
             color: $blue;
         }
+        .filter {
+            text-align: center;
+        }
         .cards {
             display: flex;
             justify-content: space-around;

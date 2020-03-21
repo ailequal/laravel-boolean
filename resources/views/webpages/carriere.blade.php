@@ -4,6 +4,14 @@
 <div class="students container-fluid">
 	<div class="container">
 		<h2>I nostri ex studenti su LinkedIn</h2>
+		<div class="filter">
+			<select name="filter" id="filter">
+				<option value="all">Tutti</option>
+				@foreach ($genders as $gender)
+				<option value="{{$gender}}">{{($gender === 'male') ? 'Uomo' : 'Donna'}}</option>
+				@endforeach
+			</select>
+		</div>
 		<div class="cards">
 			@foreach ($students as $key => $student)
 			<div class="card">
