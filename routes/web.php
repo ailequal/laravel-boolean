@@ -27,3 +27,6 @@ Route::get('/iscriviti', 'StaticPageController@iscriviti')->name('static_page.is
 Route::get('/carriere', 'CarriereController@index')->name('carriere.index');
 Route::get('/carriere/studente/{slug}', 'CarriereController@show')->name('carriere.show');
 Route::get('/test', 'CarriereController@test')->name('carriere.test');
+
+// database webpage
+Route::get('/database/students', 'DatabaseController@students')->name('database.students');
