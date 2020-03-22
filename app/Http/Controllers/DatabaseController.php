@@ -7,8 +7,6 @@ use Illuminate\Http\Request;
 class DatabaseController extends Controller
 {
 		private $data;
-		private $studentOne;
-		private $studentTwo;
 
 		public function __construct() {
 			$this->data = Student::all();
